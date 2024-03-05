@@ -1,29 +1,58 @@
 @import url(" zero.css");
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 44px 3%;
+  pointer-events: none;
 }
 .header__container {
+  font-size: 2.5rem;
+  font-weight: 700;
+  pointer-events: all;
 }
+
 .header__logo {
 }
 .header__cart {
 }
-.product {
+.main {
 }
 .product__container {
 }
 .product__slider {
+  min-height: 100%;
+  overflow: hidden;
 }
 .swiper {
 }
 .product__wrapper {
+  min-height: 100%;
+  display: flex;
 }
 .swiper-wrapper {
 }
 .product__slide {
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 30px 20px 20px 20px;
 }
 .swiper-slider {
 }
 .product__body {
+  flex: 1 1 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .product__content {
 }
