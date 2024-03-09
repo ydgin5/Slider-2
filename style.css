@@ -126,3 +126,6 @@
   line-height: 1.3;
   font-weight: 500;
 }
+.product__buy:hover {
+  text-decoration: none;
+}
